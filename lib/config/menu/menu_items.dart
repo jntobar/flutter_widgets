@@ -34,7 +34,7 @@ const appMenuItems = <MenuItems>[
     title: 'Form',
     subTitle: 'Form Page',
     icon: Icons.edit_note_outlined,
-    link: '/form',
+    link: '/forms',
   ),
   MenuItems(
     title: 'ListView',

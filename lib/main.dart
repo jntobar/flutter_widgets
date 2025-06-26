@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:widgets_app/config/theme/app_theme.dart';
+import 'package:widgets_app/presentation/screens/buttons/buttons_screen.dart';
+import 'package:widgets_app/presentation/screens/cards/cards_screen.dart';
+import 'package:widgets_app/presentation/screens/forms/forms_screen.dart';
 import 'package:widgets_app/presentation/screens/home/home_screen.dart';
+import 'package:widgets_app/presentation/screens/listview/listview_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -14,8 +18,15 @@ class MainApp extends StatelessWidget {
     
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: AppTheme(selectedColor: 3).getTheme(),
+      theme: AppTheme(selectedColor: 6).getTheme(),
       home: const HomeScreen(),
+      routes: {
+        
+        '/buttons': (context) => const ButtonsScreen(),
+        '/cards': (context) => const CardsScreen(),
+        '/forms': (context) => const FormsScreen(),
+        '/listview': (context) => const ListviewScreen(),
+      },
     );
   }
 }
