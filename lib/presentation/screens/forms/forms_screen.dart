@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class FormsScreen extends StatelessWidget {
+  static const String name= 'Forms_screen';
   const FormsScreen({super.key});
 
   @override
