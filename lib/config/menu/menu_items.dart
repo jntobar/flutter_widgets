@@ -56,4 +56,20 @@ const appMenuItems = <MenuItems>[
     link: '/snackbars',
     
   ),
+  MenuItems(
+    title: 'Animated container',
+    subTitle: 'animated',
+    icon: Icons.check_box_outline_blank_outlined,
+    link: '/animated',
+    
+  ),
+  MenuItems(
+    title: 'UI control + Tiles',
+    subTitle: 'ui-control',
+    icon: Icons.car_rental_outlined,
+    link: '/ui-control',
+    
+  ),
+
+
 ];
