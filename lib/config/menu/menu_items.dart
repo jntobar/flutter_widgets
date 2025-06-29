@@ -42,4 +42,10 @@ const appMenuItems = <MenuItems>[
     icon: Icons.list_alt_outlined,
     link: '/listview',
   ),
+  MenuItems(
+    title: 'ProgressIndicator',
+    subTitle: 'Progress y ControladosPage',
+    icon: Icons.refresh_outlined,
+    link: '/progress',
+  ),
 ];

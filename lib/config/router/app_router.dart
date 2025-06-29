@@ -30,5 +30,16 @@ final appRouter = GoRouter(
       name: ListviewScreen.name,
       builder: (context, state) => const ListviewScreen(),
     ),
+    GoRoute(
+      path: '/animated',
+      name: AnimatedScreen.name,
+      builder: (context, state) => const AnimatedScreen(),
+    ),
+    GoRoute(
+      path: '/progress',
+      name: ProgressScreen.name,
+      builder: (context, state) => const ProgressScreen(),
+    ),
+
   ],
 );
